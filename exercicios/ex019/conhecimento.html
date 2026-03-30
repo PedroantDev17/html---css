@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover e psceu de classes</title>
+    <style>
+        div > p{
+            display: none;
+        }
+        div:hover > p {
+            background-color: brown;
+            display: block;
+            color: aliceblue;
+            width: 200px;
+        }
+        div:hover{
+            color: blueviolet;
+        }
+        source{
+            border: 1px solid red;
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+        }
+
+     </style>
+</head>
+<body>
+    <h1>hover e psceu dos classes</h1>
+    <div> 
+        <source id="facil">facil</source>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellendus autem facere maxime molestiae, perspiciatis non officiis quo, inventore, quam amet alias ad quos eum enim facilis recusandae cupiditate nulla.</p>
+        <source id="medio">medio</source>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias obcaecati quam, saepe, nemo perspiciatis blanditiis quasi quas, sint harum eum reprehenderit iure. Minus, doloremque nemo quia maxime corrupti qui veniam?</p>
+        <source id="intermediario">intermediario</source>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ex provident suscipit repellat, eius, quasi corrupti blanditiis iste numquam esse, quia quas cupiditate! Quo, cumque minus officia corporis quidem delectus?</p>
+        <source id="dificil">difcil</source>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus possimus quia minima voluptates atque laudantium culpa quod commodi corporis officiis, voluptatibus in voluptatem et saepe voluptatum temporibus odio nobis incidunt!</p>
+        <source id="estremo">estremo</source>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate iure quasi, tenetur fuga excepturi eaque recusandae fugit necessitatibus repellendus impedit, veniam odio tempore voluptatem illum veritatis molestias dolorum nulla esse. </p>
+    </div>
+</body>
+</html>

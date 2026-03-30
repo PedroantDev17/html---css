@@ -1,0 +1,41 @@
+body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+div{
+    display: inline-block;
+    text-align: center;
+    background-color: azure;
+    color: black;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    font-size: large;
+    }
+div:hover{
+    background-image: linear-gradient(to bottom, white, red, brown);
+        }   
+
+a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color:blue;
+    text-decoration: underline;
+}
+a:active{
+    color:yellow;
+
+}
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: silver;
+}
