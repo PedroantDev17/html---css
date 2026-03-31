@@ -1,0 +1,125 @@
+@font-face {
+            font-family:'FjallaOne-Regular';
+            src: url(fontes/FjallaOne-Regular.ttf) format('opentype');
+        }
+        @font-face {
+            font-family:'idroid.otf';
+            src: url(fontes/idroid.otf) format('opentype');
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(89, 252, 129);
+            background-attachment: fixed;
+        }
+        div#topo{
+            display: block;
+            background-image: linear-gradient(to bottom, rgb(73, 221, 68), rgb(2, 82, 2));
+            padding: 20px;
+            margin-block: -8px;
+            margin-right: -10px;
+            margin-left: -10px;
+        }
+        p.titulo{
+           font-family:'FjallaOne-Regular';
+            color: white;
+            text-align: center;
+            margin: 1px;
+            font-size: 40px;
+            
+        }
+        p.subtitulo{
+            text-align: center;
+            color: rgba(255, 255, 255, 0.829);
+            margin: 30px;
+            
+        }
+        section.one{
+            margin-left: -10px;
+            margin-bottom: 10px;
+            margin-bottom: -15px;
+        }
+        div#topo > section > a{
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        #Conteudo{
+           background-color: white;
+           margin-right: 120px;
+           margin-left: 120px;
+        }
+        h1{
+            font-family:'idroid.otf';
+            margin: 8px;
+            padding-left: 20px;
+            padding-top: 16px;
+            font-size: 25px;
+            color: darkgreen;
+        }
+        #Conteudo > p{
+            text-align: justify;
+            padding: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            text-indent: 20px;
+            margin-top: -17px;
+            margin-bottom: -35px;
+        }
+        div#Conteudo > p.h1 >a{
+            color: green;
+            text-decoration: none;
+        }
+        a{
+            font-weight: bold;
+        }
+        div#Conteudo > p.h1 >a:hover{
+            text-decoration: underline;
+         }
+        #Conteudo > h2{
+            font-family:'idroid.otf';
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 8px;
+            padding-top: 1px;
+            font-size: 25px;
+            color: darkgreen;
+            padding-left: 20px;
+            background-image: linear-gradient(to right, rgba(2, 187, 2, 0.404), white);
+        }
+        div#Conteudo > p.h2 >a{
+            color: green;
+            text-decoration: none;
+        }
+        div#Conteudo > p.h2 >a::after{
+            content: '🔗';
+        }
+        div#Conteudo > p.h2 >a:hover{
+            text-decoration: underline;
+         }
+        div#Conteudo > img {
+           margin-top: 18px;
+            margin-left: 32px;
+          }
+        div#Conteudo > p.h2 >mark{
+            color: green;
+            background-color: white;
+            font-weight: bold;
+        }
+        div#Conteudo > p.h2 >img{
+            margin-top: 18px;
+            margin-bottom: 10px;
+        }
+        div#Conteudo > span.imagem > img{
+            margin-top: 18px;
+            margin-bottom: 10px;
+            margin-left: 100px;
+        }
+        div#Conteudo > iframe {
+            margin-left: 0px;
+        }
+        
