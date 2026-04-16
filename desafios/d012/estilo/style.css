@@ -8,6 +8,8 @@
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', sans-serif;
     --fonte3:  "Sriracha", cursive;
+    --cor-branca: white;
+    --cor-preta:black;
 }
 *{
     margin: 0px;
@@ -23,8 +25,8 @@ html, body{
 }
 
 header{
-    background-color: black;
-    color: white;
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
     text-align: center;
 }
 
@@ -40,7 +42,7 @@ header > p{
 }
 
 header a, footer a {
-    color: white;
+    color: var(--cor-branca);
     text-decoration: none;
     font-weight: bolder;
 }
@@ -58,24 +60,40 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 section.normal{
-    background-color: white;
-    color: black;
+    background-color: var(--cor-branca);
+    color: var(--cor-preta);
 }
 
 section.imagem{
     background-color: rgb(49, 45, 45);
-    color: white;
+    color: var(--cor-branca);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
 }
 footer{
-    background-color: black;
-    color: white;
+    background-color: var(--cor-preta);
+    color: var(--cor-branca);
     text-align: center;
     padding: 10px;
 }
