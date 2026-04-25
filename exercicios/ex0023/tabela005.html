@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        table{
+            width: 200px;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+             padding: 8px;
+        }
+        col.cnome{
+            background-color: rgba(0, 0, 255, 0.377);
+        }
+        col.cgrupo{
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
     <h1>
@@ -11,18 +35,52 @@
     </h1>
 
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
-            <th>Nome</th>
-            <th>Sexo</th>
-            <th>idade</th>
-            <th>Profissão</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">idade</th>
+            <th scope="col">Profissão</th>
         </tr>
         <tr>
             <td>Ana Maria</td>
             <td>F</td>
             <td>25</td>
             <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Lucas Azevedo</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Analista de Suporte Técnico</td>
+        </tr>
+        <tr>
+            <td>Maria Coutinho</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Designer Gráfica</td>
+        </tr>
+        <tr>
+            <td>Rafael Montenegro</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Atendente de Loja</td>
+        </tr>
+        <tr>
+            <td>Bianca Figueiredo</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Caroline Rocha</td>
+            <td>F</td>
+            <td>41</td>
+            <td>Engenheiro Civil</td>
         </tr>
     </table>
 </body>
